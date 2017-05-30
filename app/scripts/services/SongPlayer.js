@@ -4,6 +4,8 @@
          
          var SongPlayer = {};
          
+         //@desc which album is playing, for use in next and previous buttons
+         //@type {Object}
          var currentAlbum = Fixtures.getAlbum();
     
          //@desc Buzz object audio file
